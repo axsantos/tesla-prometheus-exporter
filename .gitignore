@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Persisted data (tokens, databases)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

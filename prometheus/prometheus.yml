@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 60s
+  evaluation_interval: 60s
+
+scrape_configs:
+  - job_name: "tesla-exporter"
+    scrape_interval: 60s
+    scrape_timeout: 10s
+    static_configs:
+      - targets: ["tesla-exporter:9090"]
